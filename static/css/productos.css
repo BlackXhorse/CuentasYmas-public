@@ -1,0 +1,127 @@
+body {
+    background-image: url("https://media.giphy.com/media/5z0Clc1s7uQfxuC1eG/giphy.gif"); 
+    background-position: center 25%; 
+    background-size: cover;
+}
+.cuentas{
+    color: white;
+    max-width: 15%;
+    border: 2px solid red;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 5%;
+}
+.cuentas:hover{
+    border: 2px solid blue;
+    transition: 2s;
+}
+
+.cuentanueva{
+    border: 3px solid red;
+    max-width: 31.7%;
+    max-height: 255px;
+    position: relative;
+    top: 100px;
+    left: 15%;
+}
+.cuentanueva:hover{
+    opacity: 10%;
+    transition: 1s;
+    border: 3px solid blue;
+    opacity: 100%;
+
+}
+.cuentanuevainfo{
+    text-align: center;
+display: none;
+position: relative;
+left: 45%;
+color: white;
+top: -250px;
+}
+.cuentaschetadas{
+    border: 3px solid red;
+    position: relative;
+    top: -150px;
+    left: 60%;
+    max-width: 32.2%;
+    max-height: 245px;
+}
+.cuentaschetadas:hover{
+    transition: 1s;
+    border: 3px solid blue;
+}
+.chetadainfo{
+    text-align: center;
+    display: none;
+    
+}
+
+/*assets*/
+.windowtitle{
+    text-align: center;
+    margin-left: -50%;
+    margin-top: -25px;
+    color: red;
+}
+.windowtitle:hover{
+    transition: 2s;
+    color:green;
+}
+.windowctitle{
+    text-align: center;
+    margin-left: -50%;
+    position: relative;
+    color: red;
+}
+.windowinfo{
+    text-align: center;
+    margin-left: -50%;
+    margin-top: 30px;
+}
+.windowclose{
+    margin-top: 65px;
+    margin-left: -50%;
+}
+.windowcclose{
+    margin-top: -100px;
+    margin-left: 50%;
+
+}
+.top{
+    color: white;
+    position: relative;
+    bottom: 240px;
+    opacity: 90%;
+}
+.top:hover{
+    transition: 1s;
+    opacity: 100%;
+    color: green;
+}
+.bottom{
+    text-align: center;
+    color: white;
+    opacity: 95%;
+    position: relative;
+    bottom: 111px;
+    left: 33%;
+}
+.bottomc{
+    text-align: center;
+    color: white;
+    opacity: 95%;
+    position: relative;
+    bottom: 65px;
+    left: 10%;
+}
+.bottom:hover{
+    transition: 1s;
+    opacity:100%;
+}
+.bottomc:hover{
+    transition: 1s;
+    opacity:100%;
+}
+

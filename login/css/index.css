@@ -1,0 +1,20 @@
+body{
+    background-image: url("background");
+    background-size: cover;
+    text-decoration: none;
+}
+
+.login{
+    font-size:30px;
+    text-align:center;
+}
+.registro{
+    font-size:35px;
+    text-align:center;
+    margin-top:320px;
+}
+@media only screen and (max-width: 600px) {
+body {
+background-image:url("backgroundresponsive");
+}
+}

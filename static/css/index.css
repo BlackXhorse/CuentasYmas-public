@@ -1,0 +1,111 @@
+body {
+    background-image: url("https://media.giphy.com/media/KZFrf9JusXzmpnPsT6/giphy.gif"); 
+    background-position: center 25%; 
+    background-size: cover;
+}
+
+
+.gtavc{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid red;
+    position: relative;
+    top: 80px;
+    margin-left: 5%;
+}
+.gtavc:hover{
+    transition: 1s;
+    border: 3px solid blue;
+    opacity: 100%;
+}
+#gtav:hover{
+    opacity: 100%;
+}
+#gtav{
+    opacity: 85%;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+.centrado{
+    position: absolute;
+    top: 80%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.cheteo1c{
+    max-width: 25.7%;
+    border: 3px solid red;
+    position: relative;
+    top: -123px;
+    margin-left: 60%;
+}
+.cheteo1c:hover{
+    transition: 1s;
+    border: 3px solid blue;
+}
+.texto-encimac{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+.centradoc{
+    position: absolute;
+    top: 75%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.mods{
+    max-width: 25.7%;
+    border: 3px solid red;
+    position: relative;
+    top: -80px;
+    margin-left: 33%;
+}
+.mods:hover{
+    transition: 1s;
+    border: 3px solid blue;
+    opacity: 100%;
+}
+.texto-encimam{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+.centradom{
+    position: absolute;
+    top: 80%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/*responsive*/
+@media only screen and (max-width: 600px) {
+    .gtavc{
+        margin-left: 0%;
+        margin-top: 200px;
+        max-width: 100%;
+
+    }
+    .cheteo1c{
+        margin-left: 0%;
+        margin-top: 300px;
+        max-width: 100%;
+
+    }
+    .mods{
+        margin-left: 0%;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+
+  }
